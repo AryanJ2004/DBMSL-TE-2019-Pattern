@@ -16,3 +16,4 @@ select avg(Amount) from Acc_info;
 select * from Cust_info join Acc_info on Cust_info.C_id=Acc_info.C_id where Amount<(select avg(Amount) from Acc_info);
 select Cust_info.C_id from Cust_info inner join Acc_info on Cust_info.C_id=Acc_info.C_id where Amount=(select max(Amount) from Acc_info);
 select Acc_Type,Amount from Acc_info where Amount=any(select min(Amount) from Acc_info group by Acc_Type);
+select Amount from Acc_info Amount where amount>any(select Amount from Acc_info where Acc_Type="Saving");
