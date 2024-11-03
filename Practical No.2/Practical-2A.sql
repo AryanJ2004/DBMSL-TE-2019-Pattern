@@ -1,3 +1,17 @@
+/*Problem Statement
+Create one table employee with fields 
+Eno -primary key and apply sequence starts with 101 
+Ename-not null Address-default 'Nashik' 
+Joindate Post Salary-check > 5000 
+Create another table emp_proj with fields 
+Eno- forign key 
+Project_name 
+Loc 
+Create Index on Ename field of employee table 
+Create View on employee table to show only Employee name, it's post and salary.
+*/
+
+
 create table employee(eno int primary key AUTO_INCREMENT,ename varchar(20) not null);
 alter table employee add column address varchar(20) default 'Nashik';
 alter table employee add column jdate date;
