@@ -1,6 +1,6 @@
 # Database Management System Lab - TE Computer (2019 Pattern)
 
-This repository contains the code for Database Management System Lab (DBMSL), of the TE Computer Engineering curriculum at Savitribai Phule Pune University (SPPU), following the 2019 pattern. The purpose of this laboratory practice is to enhance understanding and practical skills in computer programming and problem-solving.
+This repository contains the code for Database Management System Lab (DBMSL), of the TE Computer Engineering curriculum at Savitribai Phule Pune University (SPPU), following the 2019 pattern. The purpose of this DBMS Lab is to enhance understanding and practical skills in computer programming and problem-solving.
 
 # Prerequisites
 Visual Studio or any suitable IDE for executing the code. <br>
