@@ -9,7 +9,7 @@ Relevant libraries and dependencies (if applicable) should be installed.
 
 # Clone the Repository:
 ```
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/AryanJ2004/DBMSL-TE-2019.git
 cd your-repo-name
 ```
 Open the Code Files: Use your preferred IDE to open the code files and explore the implementation. <br>
