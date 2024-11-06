@@ -30,4 +30,4 @@ Acc_type:*/
 select Acc_Type,Amount from Acc_info where Amount=any(select min(Amount) from Acc_info group by Acc_Type);
 
 /*Display the amount of those accounts whose amount is higher than amount of any saving account amount:*/
-select Amount from Acc_info Amount where amount>any(select Amount from Acc_info where Acc_Type="Saving");
+select Amount from Acc_info where amount>any(select Amount from Acc_info where Acc_Type="Saving");
