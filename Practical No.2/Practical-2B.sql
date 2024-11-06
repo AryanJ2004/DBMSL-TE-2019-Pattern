@@ -39,7 +39,7 @@ are belonging as well as where projects are going on.*/
 select Address from emp union select Addr from Proj order by Address;
 
 /*11.Find city wise minimum salary.*/
-select Address,max(Salary) from emp group by Address;
+select Address,min(Salary) from emp group by Address;
 
 /*12.Find city wise maximum salary having
 maximum salary greater than 26000.*/
