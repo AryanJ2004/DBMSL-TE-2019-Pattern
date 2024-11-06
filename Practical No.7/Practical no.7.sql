@@ -9,9 +9,9 @@ Queries:
 */
 
 Create table oroll(rno int,name varchar(20),contact int);
-Insert into oroll values(1,”qwe”,1234),(2,”asd”,5678),(3,”zxc”,890);
+Insert into oroll values(1,"qwe",1234),(2,"asd",5678),(3,"zxc",890);
 Create table nroll(rno int,name varchar(20),contact int);
-Insert into nroll values(1,”qwe”,1234),(4,”tyu”,1357),(5,”hjk”,2468);
+Insert into nroll values(1,"qwe",1234),(4,"tyu",1357),(5,"hjk",2468);
 Delimiter %
 Create procedure cp1(no int)
 Begin
