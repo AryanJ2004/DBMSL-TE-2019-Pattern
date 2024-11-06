@@ -12,7 +12,7 @@ create table stud_marks(roll_no int,name varchar(20),marks int);
 insert into stud_marks values(1,"XYZ",901),(2,"ABC",500),(3,"ASD",1400),(4,"ZZZ",850);
 delimiter #
 
-create function grd(rno int) returns varchar(20) 
+create function grd(rno int) returns varchar(20) DETERMINISTIC
 begin
 declare m int;
 declare res varchar(20);
