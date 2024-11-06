@@ -23,7 +23,7 @@ select * from Cust_info inner join Acc_info on Cust_info.C_id=Acc_info.C_id wher
 select * from Cust_info join Acc_info on Cust_info.C_id=Acc_info.C_id where Amount<(select avg(Amount) from Acc_info);
 
 /*Display the C_id having maximum amount in account:*/	
-select Cust_info.C_id from Cust_info inner join Acc_info on Cust_info.C_id=Acc_info.C_id where Amount=(select max(Amount) from Acc_info);	
+select Acc_info.C_id from Acc_info where Amount=(select max(Amount) from Acc_info);	
 
 /*Display the amount and acc_type of those customers whose amount is the minimum amount of that
 Acc_type:*/
