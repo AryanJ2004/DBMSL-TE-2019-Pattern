@@ -32,7 +32,7 @@ Close c1;
 Leave abc;
 End if;
 End loop abc;
-Select * from nroll;
+Select * from oroll;
 End;
 %
 Delimiter ;
